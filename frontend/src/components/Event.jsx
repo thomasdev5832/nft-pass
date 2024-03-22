@@ -7,7 +7,7 @@ function Event({ event }) {
   return (
     <div className="event">
         <div className='imgPriceContainer'>
-            <img src={ethBootcampImg} alt="" />
+            <img src={"https://" + event.imagem} alt="" />
             <p className='preco'>{event.preco} OP</p>
         </div>
         <div className='eventSubContainer'>
