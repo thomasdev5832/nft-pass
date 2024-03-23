@@ -3,7 +3,7 @@ import React from 'react';
 import './Event.css';
 import ethBootcampImg from '../assets/img/eth-bootcamp.jpg';
 
-function Event({ event }) {
+function MyEvent({ event }) {
   return (
     <div className="event">
         <div className='imgPriceContainer'>
@@ -54,4 +54,4 @@ function Event({ event }) {
   );
 }
 
-export default Event;
+export default MyEvent;

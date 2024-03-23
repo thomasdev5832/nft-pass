@@ -37,6 +37,7 @@ a {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow   : 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     box-shadow        : 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom     : 5%;
 }
 
 .logoContainer {
@@ -57,7 +58,9 @@ a {
 }
 
 .logoContainer a img {
-    max-width: 50px;
+    max-width    : 50px;
+    border-radius: 20px;
+    margin-right : .3em;
 }
 
 

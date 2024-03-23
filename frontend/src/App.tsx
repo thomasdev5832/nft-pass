@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import Catalog from './pages/Catalog';
 import Footer from './components/Footer';
 import CreateEvent from './pages/CreateEvent';
+import MeusEventos from './pages/MeusEventos';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
          <Route path="/dashboard" element={<Dashboard />} />
          <Route path="/catalog" element={<Catalog />} />
          <Route path="/create" element={<CreateEvent />} />
+         <Route path="/myEvents" element={<MeusEventos />} />
        </Routes>
        
      </main>

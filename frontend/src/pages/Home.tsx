@@ -22,6 +22,7 @@ function Home() {
         </div>
       </section>
 
+      {/*
       <section className='feature'>
         <div className='feature-content'>
           <h2>Recursos Incríveis</h2>
@@ -32,6 +33,7 @@ function Home() {
           <img src="" alt="" />
         </div>
       </section>
+      */}
 
     </div>
   )
