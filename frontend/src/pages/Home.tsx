@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css";
 import MetaMaskService from '../services/MetaMaskService';
 import heroImage from '../assets/img/hero-image.png';
+import optimism from '../assets/img/optism.webp';
 
 function Home() {
 
@@ -22,18 +23,12 @@ function Home() {
         </div>
       </section>
 
-      {/*
+      
       <section className='feature'>
-        <div className='feature-content'>
-          <h2>Recursos Incríveis</h2>
-          <p>Descubra recursos incríveis que ajudarão você a maximizar seu aprendizado.</p>
-          <button>Descobrir mais</button>
-        </div>
         <div className='feature-image'>
-          <img src="" alt="" />
+          <img src={optimism} />
         </div>
       </section>
-      */}
 
     </div>
   )
